@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: #22577A;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 70px auto 30px auto;
+    display: block;
+}
+
+#header {
+    color: white;
+}
+
+#highlight {
+    color: #57cc99;
+}
+
+#par {
+    color: lightgrey;
+}
+
+#btn {
+    color: whitesmoke;
+    background-color: #57cc99;
+    margin-top: 25px;
+    padding: 8px 10px 8px 10px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0px auto 0px auto;
+    padding-top: 30px;
+    border-top: 1px solid #2E74A3;
+}
+
+.pass {
+    color: #57cc99;
+    background-color: #2E74A3;
+    padding: 5px 30px 5px 30px;
+    border: 0;
+    border-radius: 4px;
+}

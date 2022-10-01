@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="header">Generate a <span id="highlight">random password</span></h1>
+            <p id="par">Never use an insecure password again.</p>
+            <button id="btn" onclick="create_passwords()">Generate passwords</button>
+        </div>
+        <div class="btn-container">
+            <button id="pass1" class="pass" onclick="copy('pass1')">password here</button>
+            <button id="pass2" class="pass" onclick="copy('pass2')">password here</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
