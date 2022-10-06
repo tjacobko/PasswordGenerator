@@ -9,6 +9,20 @@
         <div class="container">
             <h1 id="header">Generate a <span id="highlight">random password</span></h1>
             <p id="par">Never use an insecure password again.</p>
+            <div class="input-container">
+                <div>
+                    <input type="number" id="length" name="length" min="10" max="25" value="15">
+                    <label for="length">Password length</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="symbols" name="symbols" value=True>
+                    <label for="symbols">No symbols</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="numbers" name="numbers" value=True>
+                    <label for="numbers">No numbers</label>
+                </div>
+            </div>
             <button id="btn" onclick="create_passwords()">Generate passwords</button>
         </div>
         <div class="btn-container">

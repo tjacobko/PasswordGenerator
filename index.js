@@ -1,6 +1,10 @@
-let generate_passwords = document.getElementById("btn")
+const generate_passwords = document.getElementById("btn")
 let pass1 = document.getElementById("pass1")
 let pass2 = document.getElementById("pass2")
+
+let length = document.getElementById("length")
+let symbols = document.getElementById("symbols")
+let numbers = document.getElementById("numbers")
 
 const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9","~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"]
 
@@ -8,7 +12,7 @@ function create_passwords() {
     let p1 = ""
     let p2 = ""
 
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < length.value; i++) {
         p1 += characters[Math.floor(Math.random()*characters.length)]
         p2 += characters[Math.floor(Math.random()*characters.length)]
     }

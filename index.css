@@ -5,13 +5,15 @@ body {
 }
 
 .container {
-    width: 400px;
+    width: 490px;
     margin: 70px auto 30px auto;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 #header {
     color: white;
+    margin: 0px;
 }
 
 #highlight {
@@ -20,12 +22,33 @@ body {
 
 #par {
     color: lightgrey;
+    margin: 5px 0px 50px 0px;
+}
+
+#length {
+    text-align: center;
+    width: 50px;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+}
+
+label {
+    color: white;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-around;
+    width: 490px;
 }
 
 #btn {
     color: whitesmoke;
+    width: 35%;
     background-color: #57cc99;
-    margin-top: 25px;
+    display: block;
+    margin: 25px auto 0px auto;
     padding: 8px 10px 8px 10px;
     border: 0;
     border-radius: 4px;
@@ -34,7 +57,7 @@ body {
 .btn-container {
     display: flex;
     justify-content: space-around;
-    width: 400px;
+    width: 490px;
     margin: 0px auto 0px auto;
     padding-top: 30px;
     border-top: 1px solid #2E74A3;
