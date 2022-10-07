@@ -8,7 +8,7 @@ Password Generator creates two random 15-character passwords that may consist of
 When launched, click the button **Generate passwords**, and the two bottom buttons will have your randomly generated passwords in which you can click to copy to your
 clipboard. Click the **Generate passwords** button as many times as you'd like till you find a password that fits you.
 
-![alt text](https://github.com/tjacobko/PasswordGenerator/blob/main/PasswordGenerator.JPGhttps://github.com/tjacobko/PasswordGenerator/blob/main/PasswordGenerator.JPG)
+![alt text](https://github.com/tjacobko/PasswordGenerator/blob/main/PasswordGenerator.JPG)
 
 ### Future additions
 Some features coming in the near future:
